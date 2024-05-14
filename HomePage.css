@@ -1,0 +1,20 @@
+/* MainContainer.css */
+.MainContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Side {
+  flex: 2.3; /* Takes up 30% of the MainContainer */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.Swap {
+  flex: 7.7; /* Takes up remaining 70% of the MainContainer */
+}
+
+/* App.css */
+.App {
+  background-color: #042227;
+}

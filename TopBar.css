@@ -1,0 +1,29 @@
+/* TopBar */
+.top-bar {
+    height: 7.5vh;
+    width: 100vw;
+    background-color: #202221;
+    border-bottom: 0.2vw solid;
+    border-color: #7dfefea7;
+    position: relative;
+}
+
+.top-bar .text-wrapper {
+    color: #fdf2ce;
+    font-family: "Kanit-Regular", Helvetica;
+    font-size:4.5vh;
+    font-weight: 400;
+    left: 1vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 0.75vw;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}

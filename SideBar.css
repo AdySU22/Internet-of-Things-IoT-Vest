@@ -1,0 +1,45 @@
+/* SideBar */
+.side-bar {
+    height: 92.5vh;
+    width: 30vw;
+    background-color: #051c17;
+    position: relative;
+}
+
+.side-bar .text-wrapper {
+    color: #fdf2ce;
+    font-family: "Kanit-Regular", Helvetica;
+    font-size: 2vw; /* Use vw for proportional font size */
+    font-weight: 400;
+    left: 5%; /* Use percentage for dynamic left positioning */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2.5%; /* Use percentage for dynamic top positioning */
+}
+
+.side-bar .names {
+    color: #fdf2ce;
+    font-family: "Kanit-Regular", Helvetica;
+    font-size: 1.5vw; /* Use vw for proportional font size */
+    font-weight: 400;
+    left: 5%; /* Use percentage for dynamic left positioning */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5%; /* Use percentage for dynamic top positioning */
+}
+
+.names .name-link {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.names .name-link:hover {
+    color: #7dfdfe
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}

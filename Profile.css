@@ -1,0 +1,72 @@
+.profile {
+    height: 92.5vh;
+    position: relative;
+    width: 70vw;
+    background-color: #042227;
+}
+
+.profile .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 25px;
+    height: 14vw;
+    left: 2vw;
+    position: absolute;
+    top: 2vw;
+    width: 14vw;
+}
+
+.profile .heart-beat {
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    height: 14vw;
+    left: 17.5vw;
+    position: absolute;
+    top: 2vw;
+    width: 50.5vw;
+}
+
+.profile .blood-pressure {
+    background-color: #0b363d;
+    border-radius: 5px;
+    height: 4vw;
+    left: 2vw;
+    position: absolute;
+    top: 17vw;
+    width: 13.5vw;
+    color: #fdf2ce;
+    border: 0.12vw solid;
+    border-color: #49a2b2;
+}
+
+.profile .temperature {
+    background-color: #f86a3d;
+    border-radius: 5px;
+    height: 4vw;
+    left: 2vw;
+    position: absolute;
+    top: 22.3vw;
+    width: 13.5vw;
+    color: #fdf2ce;
+    border: 0.12vw solid;
+    border-color: #49a2b2;
+}
+
+.profile .text-box {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 25vw;
+    left: 17.5vw;
+    position: absolute;
+    top: 17.1vw;
+    width: 50.5vw;
+}
+
+.profile .medical {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 14.3vw;
+    left: 2vw;
+    position: absolute;
+    top: 27.8vw;
+    width: 13.5vw;
+}

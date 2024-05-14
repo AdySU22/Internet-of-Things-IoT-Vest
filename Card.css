@@ -1,0 +1,67 @@
+.card {
+    background-color: #0b291f;
+    border: 0.2vw solid;
+    border-color: #7dfefea7;
+    border-radius: 15px;
+    height: 12vw;
+    position: relative;
+    width: 74.7vw;
+}
+
+.card .profile-pict {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 10vw;
+    left: 1.5%;
+    position: absolute;
+    top: 8%;
+    width: 10vw;
+}
+
+.card .heart-beat {
+    background-color: #191510;
+    border-radius: 5px;
+    height: 8.3vw;
+    left: 16%;
+    position: absolute;
+    top: 8%;
+    width: 50.8vw;
+    padding-top: 2%;
+}
+
+.card .blood-pressure {
+    background-color: #0B363D;
+    border-radius: 5px;
+    height: 4vw;
+    left: 85%;
+    position: absolute;
+    top: 7.9%;
+    width: 10vw;
+    color: #fdf2ce;
+    border: 0.12vw solid;
+    border-color: #49a2b2;
+}
+
+.card .temperature {
+    background-color: #061e22;;
+    border-radius: 5px;
+    height: 4vw;
+    left: 85%;
+    position: absolute;
+    top: 55%;
+    width: 10vw;
+    color: #fdf2ce;
+    border: 0.12vw solid;
+    border-color: #49a2b2;
+}
+
+.card .blood-pressure,
+.card .temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rokkitt', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+}
